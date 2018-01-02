@@ -40,7 +40,7 @@ Equipment role hiearchy model describe the logical grouping and hiearchies where
 
  
 #### Enterprise
-> `Enterprise` is the top level logical organization that controls all manufacturing sites. Enteprise determines what products will be manufactured and where they will be manufactured. 
+> `Enterprise` is the top level logical organization that controls all manufacturing sites. An Enteprise determines what products will be manufactured and where they will be manufactured. 
 
 #### Site
 > A `Site` generally refers to physical or geographical location. It may represent a manufacturing facility a division or branch of an organization. An `Enterprise` may have one or more `Sites`.
