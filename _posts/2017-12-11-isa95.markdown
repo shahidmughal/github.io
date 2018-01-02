@@ -4,12 +4,19 @@ title:  "Business of manufacturing"
 date:   2017-12-11 18:46:27 -0800
 categories: blog manufacturing
 ---
-Few years back I discovered ISA 95. In my quest of understanding manufacturng domain in a very short amount of time, I wanted to see a reference model or architecture. I came across ISA 95. It is a standard from International Society of Automation (ISA). I found it to be a very well thought out work. The standard is more than 10 years old. Given all the buzz about IoT and recent come back of AI and machine learning, it is still applicable with all its glory. 
+In summer 2014, after careful consideration, I decided to join an organization that was in the business of manufacturing. Earlier in the spring days of the same year, I had finished reading a novel called `The Phoenix Project`. I am not a fiction fan but this novel was kind of a memoire of a technology manager. It had reminded me of my own work experience working for technology companies in silicon valley.
 
-Due to the success of ISA 95 standard, it is adopted by ISO/IEC organizations and referred as IEC 62264 - Eneterprise control system integration.
+<a target="_blank"  href="https://www.amazon.com/gp/product/0988262509/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0988262509&linkCode=as2&tag=shahidmughal-20&linkId=479cf977858e95a3bfcaf384bf67e65b"><img align="right" border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=US&ASIN=0988262509&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL250_&tag=shahidmughal-20" ></a><img src="//ir-na.amazon-adsystem.com/e/ir?t=shahidmughal-20&l=am2&o=1&a=0988262509" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />Right after my graudation, I had started my career as a programmer for a british pharmaceutical company. I wrote a material planning and forecast system for them. It was really a fun project. It was developed in Foxbase to run on a networked SCO unix environment.
+
+After I finished reading "The Pheonix project", I had decided to explore manufacturing domain as a possible career move. I would recommend you to read the book even if you are not in technology or software development. 
+
+## ISA 95
+After working few days at the new contract manufacturing organization, I needed a quick way to understand the manufacturing domain. I wanted to study a reference model or architecture. I came across ISA 95. It is a standard from International Society of Automation (ISA). I found it to be a very well thought out work. The standard is more than 10 years old. Given all the buzz about `Industrial Internet of Things (IIoT)`, `Digital Transformation` and recent come back of AI and `Machine Learning` it is still applicable with all its full scope. 
+
+Due to the success of ISA 95 standard, it has been adopted by ISO/IEC organizations and referred as IEC 62264 - Eneterprise control system integration. In coming days and month, I am planning to provide details on ISA 95 implmenetion.
 
 
-## Scope
+## What is ISA 95/IEC 62264?
 
 ISA 95 focuses on manufacturing operations and its integration with business or enterprise systems. It provides the vocabulary and models for designing, building and operating manufacturing facilities. It provides implementation neutral timeless models that can be used to understand existing or concieve new manufacturing environments. The models can be applied regardless of degree of automation or technology.
 
@@ -54,3 +61,5 @@ Equipment role hiearchy model describe the logical grouping and hiearchies where
 #### Work Units
 > `Work units` are the lowest level in equipment role hierarchy. They refer to work cells or storage units.
 
+## Next
+In the next post I will go over implmenting hierarichal model. I will also discuss `Business to Manufacturing Makrup Language` from MESA that has provided and XML implementation of ISA 95 models.
