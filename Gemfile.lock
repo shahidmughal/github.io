@@ -244,7 +244,7 @@ DEPENDENCIES
   jekyll (~> 3.6.2)
   jekyll-feed (~> 0.6)
   jekyll-livereload
-  minima (~> 2.0)
+  minima (~> 2.1)
   tzinfo-data
 
 BUNDLED WITH

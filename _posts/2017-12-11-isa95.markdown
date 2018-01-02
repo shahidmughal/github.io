@@ -1,9 +1,56 @@
 ---
 layout: post
-title:  "ISA-95"
+title:  "Business of manufacturing"
 date:   2017-12-11 18:46:27 -0800
-categories: manufacturing 
+categories: blog manufacturing
 ---
-Few years back I discovered ISA 95. In my quest of understanding manufacturng domain in a very short amount of time, I wanted to see a reference model or architecture. I came across ISA 95. It is an intenrational standard from International Society of Automation (ISA). I found it to be a very well thought out work. Though the standard is old and given all the recent buzz IoT and recent come back of AI and machine learning, it is still applicable with all its glory. I will be discussing and providing details, how I am successfully using it for few years. You can get more detail on ISA history and background from [Wikipedia](https://en.wikipedia.org/wiki/ANSI/ISA-95)
+Few years back I discovered ISA 95. In my quest of understanding manufacturng domain in a very short amount of time, I wanted to see a reference model or architecture. I came across ISA 95. It is a standard from International Society of Automation (ISA). I found it to be a very well thought out work. The standard is more than 10 years old. Given all the buzz about IoT and recent come back of AI and machine learning, it is still applicable with all its glory. 
 
+Due to the success of ISA 95 standard, it is adopted by ISO/IEC organizations and referred as IEC 62264 - Eneterprise control system integration.
+
+
+## Scope
+
+ISA 95 focuses on manufacturing operations and its integration with business or enterprise systems. It provides the vocabulary and models for designing, building and operating manufacturing facilities. It provides implementation neutral timeless models that can be used to understand existing or concieve new manufacturing environments. The models can be applied regardless of degree of automation or technology.
+
+### 1. Hierarchy models
+
+Hierarchy models helps to understand the interdependecies of manufacturing functions. These models help in aggregating and reporting information at appropriate levels.
+
+### 1.1. Functional hierarchy model
+Functional hierachy model presents the manufacturing and related business functions in a layered fashion from level 0 to leve 4. These levels provide clear separation of activities. 
+
+| Level  | Activities |
+|---------|------------|
+| Level&nbsp;0 | The actual physical production process.|
+| Level 1 | Sensing and manipulating the production process. Example includes IoT sensors, alarm systems.|
+| Level 2 | Monitoring, supervisory and automated control of the production process. E.g. application and operator console for underlying equipment.|
+| Level 3 | Workflow to produce the desired end product. Maintaining records and optimizing production process. E.g. MES system|
+| Level 4 | All business functions from order processing, purchasing to inventory and production scheduling|
+
+![Functional Hierarchy]({{"/assets/isa95/func-hierarchy.png"}})
+
+#### Level 3
+> Level 3 forms the core of manufacturing operation management domain. Level 0, 1 and 2 represent a production cell or work units where production is carried out. 
+
+### 1.2. Equipment role hierarchy model
+Equipment role hiearchy model describe the logical grouping and hiearchies where equipment can be located. This model may be used to implement the "security scope" of enterprise entities.
+
+![Functional Hierarchy]({{"/assets/isa95/role-hierarchy.png"}})
+
+ 
+#### Enterprise
+> `Enterprise` is the top level logical organization that controls all manufacturing sites. Enteprise determines what products will be manufactured and where they will be manufactured. 
+
+#### Site
+> A `Site` generally refers to physical or geographical location. It may represent a manufacturing facility a division or branch of an organization. An `Enterprise` may have one or more `Sites`.
+ 
+#### Area
+> An `Area` is a physical, geographical or a logical location within a `Site`. A site may contain one more areas. 
+
+#### Work Centers
+> `Work centers` are locations where manufacturing and related work is carried out. Work centers refer to "Production Lines" or "Storage Locations" where inventory is stored. Work centers may contain one or more `Work units`
+
+#### Work Units
+> `Work units` are the lowest level in equipment role hierarchy. They refer to work cells or storage units.
 
