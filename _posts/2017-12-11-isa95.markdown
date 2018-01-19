@@ -62,4 +62,4 @@ Equipment role hiearchy model describe the logical grouping and hiearchies where
 > `Work units` are the lowest level in equipment role hierarchy. They refer to work cells or storage units.
 
 ## Next
-In the next post I will go over implmenting hierarichal model. I will also discuss `Business to Manufacturing Makrup Language` from MESA that has provided and XML implementation of ISA 95 models.
+In the next post I will go over implmenting hierarichal model. I will also discuss B2MML `Business to Manufacturing Makrup Language` from MESA that has provided and XML implementation of ISA 95 models.
